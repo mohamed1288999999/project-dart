@@ -13,3 +13,7 @@ jobs:
         run: pwd
       - name: "printing name"
         run: echo mohamed
+
+      - uses: actions/checkout@v3 
+      - name: "printing fils"
+        run: ls
